@@ -67,7 +67,6 @@ export class AutoComplete extends AC.CardElement {
     private _titleElement: HTMLElement | undefined;
     private _inputElement: HTMLInputElement | undefined;
     private currentFocus: number = 0;
-    private self = this;
     protected internalRender(): HTMLElement {
         let style = document.createElement('style');
         style.type = 'text/css';
@@ -75,15 +74,14 @@ export class AutoComplete extends AC.CardElement {
         .ac-autocomplete {
             /*the container must be positioned relative:*/
             position: relative;
-            display: inline-block;
+            display: flex;
           }
          .ac-autocomplete-input {
-            border: 1px solid transparent;
-            background-color: #f1f1f1;
-            padding: 10px;
+            border: 1px solid #dddddd;
+            padding: 4px 8px 4px 8px;
             font-size: 16px;
-            background-color: #f1f1f1;
-            width: 100%;
+            flex: 1 1 auto;
+            height: 31px;
           }
           
           .ac-autocomplete-items {
