@@ -12,8 +12,9 @@
     "type": "github",
     "url": "git+https://github.com/tez-sha/ac-custom-component.git"
   },
-  "author": "Tejas Shah",
+  "author": "Tejas Shah <tez.sha@gmail.com>",
   "license": "ISC",
+  "homepage": "git+https://github.com/tez-sha/ac-custom-component.git",
   "dependencies": {
     "adaptivecards": "^3.0.1"
   },
