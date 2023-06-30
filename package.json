@@ -8,6 +8,10 @@
     "prepublish": "tsc",
     "build": "tsc"
   },
+  "repository": {
+    "type": "github",
+    "url": "git+https://github.com/tez-sha/ac-custom-component.git"
+  },
   "author": "Tejas Shah",
   "license": "ISC",
   "dependencies": {
