@@ -2,8 +2,8 @@
   "name": "@ae/ac-custom-element",
   "version": "1.0.0",
   "description": "AdaptiveCard Custom Elements to work with AiStudio Webchat",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "prepublish": "tsc",
     "build": "tsc"
@@ -20,5 +20,8 @@
   },
   "devDependencies": {
     "typescript": "^5.1.6"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
